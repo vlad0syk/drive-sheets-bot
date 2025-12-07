@@ -1,0 +1,58 @@
+bin/
+obj/
+out/
+publish/
+
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio
+.vs/
+
+# VS Code
+.vscode/
+
+# JetBrains Rider
+.idea/
+
+*.log
+*.nupkg
+*.snk
+*.pfx
+
+# ASP.NET HTTPS dev certificate
+*.db
+
+# Auto-generated files
+Generated/*
+Generated_Code/*
+
+credentials.json
+service-account.json
+*.secret.json
+
+appsettings.Development.json
+appsettings.Production.json
+appsettings.Local.json
+appsettings.*.json
+
+# Do NOT ignore the main appsettings.json:
+!appsettings.json
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# Linux
+*.swp
+*.swo
+
+*.tmp
+*.temp
+*.bak
+*.cache

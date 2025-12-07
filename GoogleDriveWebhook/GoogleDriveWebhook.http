@@ -1,0 +1,6 @@
+@GoogleDriveWebhook_HostAddress = http://localhost:5096
+
+GET {{GoogleDriveWebhook_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
